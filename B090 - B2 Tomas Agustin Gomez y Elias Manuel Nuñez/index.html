@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css">
+        <title>RECETAS ARGENTINAS | Las mejores comidas Argentinas</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/favicon.ico"/>
+    </head>
+    <body>
+        <header>
+            <div class="navbar_container_container">    
+                <div>
+                    <div class="navbar_title_menu_container"> 
+                        <a href="index.html"><div class="navbar_logo_container">
+                            <img width="40" height="40" src="images/logo.png" alt="logo recetas argentinas"/>
+                            <h1 class="navbar_title">Retina</h1>
+                        </div></a>
+                        <div class="btn_menu">
+                            <a><img src="svg/menu.svg" width="30" height="30"/></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation_container">
+                    <ul class="navigation">
+                        <a href="index.html"><li class="nav_button">Home</li></a>
+                        <a href="recetas.html"><li class="nav_button">Recetas</li></a>
+                        <a href="calories.html"><li class="nav_button">Calorias</li></a>
+                        <a href="nosotros.html"><li class="nav_button">Nosotros</li></a>
+                    </ul>
+                </div>
+            </div>           
+        </header>
+        <main>
+            <!--    Main searcher   -->
+            <section>
+                <div class="main_container">
+                    <div class="background_image_container" id="main_searcher">
+                        <img src="images/mainphoto.png" alt="plato representativo" class="background_image"/>
+                    </div>
+                    <div class="searcher_container_container">
+                        <div class="searcher_container">
+                            <div class="title_searcher">
+                                <div class="title_title_searcher">
+                                    <h2>¿Qué te gustaría cocinar?</h2>
+                                </div>
+                                <div class="text_title_searcher">
+                                    <p>Busca entre las mejores recetas Argentinas.</p>
+                                </div>
+                            </div>
+                            <div class="search_bar_container">
+                                <input type="search" placeholder="Buscar" class="search_bar"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="top_background">
+                <!--    Top recipes, mobile version have scroll, desktop doesnt   -->
+                <section class="top_recipes_container_container">
+                    <div class="top_recipes_container">
+                        <div class="top_recipes_title_container">
+                            <div class="top_recipes_title">
+                                <h2>RECETAS ARGENTINAS MÁS POPULARES</h2>
+                            </div>
+                            <div class="top_recipes_description">
+                                <p>Las recetas más popular según nuestros oyentes.</p>
+                                <a href="recetas.html"><p class="more_recipes_desktop">Otras recetas</p></a>
+                            </div>
+                        </div>
+                        <div class="recipes_container_scroll">
+                            <a href="mate.html"><article class="top_recipe">    
+                                    <div class="photo_recipe">
+                                        <img width="300" height="200" src="images/mate.png" alt="mate"/>
+                                    </div>
+                                    <div class="title_recipe_container">    
+                                        <h3 class="title_recipe">Mate</h3>
+                                        <img height="40" width="40" src="svg/arrow.svg" alt="flecha apuntando a la derecha" class="arrow"/>
+                                    </div>
+                            </article></a>
+                            <a href="tortasfritas.html"><article class="top_recipe">   
+                                    <div class="photo_recipe">
+                                        <img width="300" height="200" src="images/tortas fritas.png" alt="Tortas fritas"/>
+                                    </div>
+                                    <div class="title_recipe_container">    
+                                        <h3 class="title_recipe">Tortas fritas</h3>
+                                        <img height="40" width="40" src="svg/arrow.svg" alt="flecha apuntando a la derecha" class="arrow"/>
+                                    </div>
+                            </article></a>
+                            <a href="carne.html"><article class="top_recipe">
+                                    <div class="photo_recipe">
+                                        <img width="300" height="200" src="images/asado.png" alt="Carne"/>
+                                    </div>
+                                    <div class="title_recipe_container">
+                                        <h3 class="title_recipe">Carne</h3>
+                                        <img height="40" width="40" src="svg/arrow.svg" alt="flecha apuntando a la derecha" class="arrow"/>
+                                    </div>
+                            </article></a>
+                        </div>
+                        <a href="recetas.html"><div class="more_recipes">
+                            <p>Otras recetas</p>
+                            <img height="50" width="50" src="svg/arrow.svg" alt="flecha apuntando a la derecha" class="arrow"/>
+                        </div></a>
+                    </div>
+                </section>
+                <!--    Top categories, mobile version have scroll, desktop doesnt     -->       
+                <section>
+                    <div class="top_categories_container">
+                        <div class="top_categories_title_container">
+                            <div class="top_categories_title">
+                                <h2 class="top_categories_title">CATEGORIAS MÁS POPULARES</h2>
+                            </div>
+                            <div class="top_categories_description">
+                                <p>Las categorias más populares según nuestros oyentes.</p>
+                                <a href="fail.html"><p class="more_categories_desktop">Otras categorias</p></a>
+                            </div>
+                        </div>
+                        <div class="categories_container_scroll">
+                            <!--    First category     -->
+                            <a href="fail.html"><article class="top_category">  
+                                    <div class="category_photo">
+                                        <img  width="200" height="300" src="images/salsa.png" alt="Salsas"/>
+                                    </div>
+                                    <div class="title_category_container">    
+                                        <h3 class="title_category">SALSAS</h3>
+                                        <img height="40" width="40" src="svg/arrow.svg" alt="flecha apuntando a la derecha" class="arrow"/>
+                                    </div>
+                            </article></a>
+                            <!--    Second category     -->
+                            <a href="fail.html"><article class="top_category">    
+                                    <div class="category_photo">
+                                        <img width="200" height="300" src="images/salado.png" alt="Salado"/>
+                                    </div>
+                                    <div class="title_category_container">    
+                                        <h3>SALADO</h3>
+                                        <img height="40" width="40" src="svg/arrow.svg" alt="flecha apuntando a la derecha" class="arrow"/>
+                                    </div>
+                            </article></a>
+                            <!--    Third category     -->
+                            <a href="fail.html"><article class="top_category">
+                                    <div class="category_photo">
+                                        <img  width="200" height="300" src="images/dulce.png" alt="Dulce"/>
+                                    </div>
+                                    <div class="title_category_container">
+                                        <h3>DULCE</h3>
+                                        <img height="40" width="40" src="svg/arrow.svg" alt="flecha apuntando a la derecha" class="arrow"/>
+                                    </div>
+                            </article></a>
+                        </div>
+                        <a href="fail.html"><div class="more_caregories">
+                            <p>Otras categorias</p>
+                            <img height="50" width="50" src="svg/arrow.svg" alt="flecha apuntando a la derecha" class="arrow"/>
+                        </div></a>
+                    </div>
+                </section>
+            </div>
+        </main>  
+        <footer>
+            <div class="footer">
+                <div class="footer_title">
+                    <div class="footer_logo">
+                        <a href="#main_searcher"><img height="60" width="60" src="images/logo.png" alt="logo recetas argentinas"/></a>
+                    </div>
+                    <div class="footer_title_text">    
+                        <h3>RETINA</h3>
+                    </div>
+                    <div class="legal">    
+                        <p> RETINA - Las Mejores reCetas argentInAs© se lava las manos de cualquier cosa que le haya podido pasar al cocinar una receta vista en este sitio web.</p>
+                    </div>
+                </div>
+                <div class="contact_container">
+                    <a href="contacto.html"><div class="contact">
+                        <h4>CONTACTANOS</h4>
+                    </div></a>
+                    <p class="networks_description">Nuestras redes sociales</p>
+                    <div class="networks_container">
+                        <ul class="networks">
+                            <a href="https://www.tiktok.com/" target="_blank"><li class="network"> <img width="30" height="30" src="svg/tiktok.svg"/> </li></a>
+                            <a href="https://x.com/mariananannis/status/304741766723170304?lang=es" target="_blank"><li class="network"> <img width="30" height="30" src="svg/twitter.svg"/> </li></a>
+                            <a href="https://www.facebook.com/" target="_blank"><li class="network"> <img width="30" height="30" src="svg/facebook.svg"/> </li></a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank"><li class="network"> <img width="30" height="30" src="svg/youtube.svg"/> </li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>

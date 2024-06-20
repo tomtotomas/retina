@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css">
+        <title>RECETAS ARGENTINAS | Las mejores comidas Argentinas</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <div class="navbar_container_container">    
+                <div>
+                    <div class="navbar_title_menu_container"> 
+                        <a href="index.html"><div class="navbar_logo_container">
+                            <img width="40" height="40" src="images/logo.png" alt="logo recetas argentinas"/>
+                            <h1 class="navbar_title">Retina</h1>
+                        </div></a>
+                        <div class="btn_menu">
+                            <a><img src="svg/menu.svg" width="30" height="30"/></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation_container">
+                    <ul class="navigation">
+                        <a href="index.html"><li class="nav_button">Home</li></a>
+                        <a href="recetas.html"><li class="nav_button">Recetas</li></a>
+                        <a href="calories.html"><li class="nav_button">Calorias</li></a>
+                        <a href="nosotros.html"><li class="nav_button">Nosotros</li></a>
+                    </ul>
+                </div>
+            </div>           
+        </header>
+        <main>
+            <div class="calories_container">
+                <div class="caloriesCalculator_container">
+                    <h1>Calculadora de Calorías</h1>
+                    <div class="caloriesForm_container">
+                        <form id="calorieForm" class="caloriesForm">
+                            <div class="caloriesForm">
+                                <label for="recipeSelect">Seleccione una receta:</label>
+                                <select id="recipeSelect"></select>
+                            </div>
+                            <div class="caloriesForm">
+                                <label for="quantityInput">Cantidad de porciones:</label>
+                                <input type="number" id="quantityInput" min="1" value="1">
+                            </div>
+                            <button type="submit" class="btn_calories">Calcular Calorías</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="caloriesHistory_container">
+                    <h1>Historial de Calorías</h1>
+                    <table id="caloriesHistory" class="caloriesTable_container">
+                        <thead>
+                            <tr class="calories_history">
+                                <th>Receta</th>
+                                <th>Cantidad</th>
+                                <th>Calorías</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <div class="totalCalories">Calorías Totales: <span id="totalCalories">0</span></div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footer_title">
+                    <div class="footer_logo">
+                        <img height="60" width="60" src="images/logo.png" alt="logo recetas argentinas"/>
+                    </div>
+                    <div class="footer_title_text">    
+                        <h3>RETINA</h3>
+                    </div>
+                    <div class="legal">    
+                        <p> RETINA - Las Mejores reCetas argentInAs© se lava las manos de cualquier cosa que le haya podido pasar al cocinar una receta vista en este sitio web.</p>
+                    </div>
+                </div>
+                <div class="contact_container">
+                    <a href="contacto.html"><div class="contact">
+                        <h4>CONTACTANOS</h4>
+                    </div></a>
+                    <p class="networks_description">Nuestras redes sociales</p>
+                    <div class="networks_container">
+                        <ul class="networks">
+                            <a href="https://www.tiktok.com/"><li class="network"> <img width="30" height="30" src="svg/tiktok.svg"/> </li></a>
+                            <a href="https://x.com/mariananannis/status/304741766723170304?lang=es"><li class="network"> <img width="30" height="30" src="svg/twitter.svg"/> </li></a>
+                            <a href="https://www.facebook.com/"><li class="network"> <img width="30" height="30" src="svg/facebook.svg"/> </li></a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"><li class="network"> <img width="30" height="30" src="svg/youtube.svg"/> </li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>
+        <script src="js/calories.js"></script>
+    </body>
+</html>
